@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BallFactory {
+	//list of teams
 	private List <PingPongBall> nbateams = new ArrayList <>();
 	
 	public List<PingPongBall> MakeBalls(NBAteams nbateam1, NBAteams nbateam2, NBAteams nbateam3, NBAteams nbateam4, NBAteams nbateam5, 
