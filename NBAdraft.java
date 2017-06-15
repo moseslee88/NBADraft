@@ -11,9 +11,9 @@ public class NBAdraft {
 		for(int i = 0; i < 100; i++) {
 			lineCounter++;
 			
-		Hopper hopper = new Hopper();
+		NBAHopper hopper = new NBAHopper();
 		hopper.ShuffleAndFindWinningTeam();
-	    PingPongBall ping = hopper.ShuffleAndFindWinningTeam();
+	    NBAPingPongBall ping = hopper.ShuffleAndFindWinningTeam();
 		System.out.println("lineCounter: " + lineCounter + " " + ping.getNBAteams());
 	}
 	}
